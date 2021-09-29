@@ -233,7 +233,8 @@
 				86C204501CABD13300B0840C /* TestEntities.swift */,
 				86C204611CAC073200B0840C /* Model.xcdatamodeld */,
 			);
-			path = KWDataSourceKitTests;
+			name = KWDataSourceKitTests;
+			path = Tests/KWDataSourceKitTests;
 			sourceTree = "<group>";
 		};
 		52EE5BAB1C54F80400885725 = {
@@ -272,7 +273,8 @@
 				526601CA1C550F4B0056B3B5 /* Reusable.swift */,
 				86C204431CABB7B100B0840C /* Precondition.swift */,
 			);
-			path = KWDataSourceKit;
+			name = KWDataSourceKit;
+			path = Sources/KWDataSourceKit;
 			sourceTree = "<group>";
 		};
 		5AF26D211CD6486B008B57F3 /* Configuration */ = {
@@ -487,6 +489,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -812,6 +815,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = 0;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Sources/$(PRODUCT_NAME)/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kupferwerk.$(PRODUCT_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
@@ -824,6 +828,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = 0;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = "Sources/$(PRODUCT_NAME)/Info.plist";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.kupferwerk.$(PRODUCT_NAME:rfc1034identifier)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 			};
